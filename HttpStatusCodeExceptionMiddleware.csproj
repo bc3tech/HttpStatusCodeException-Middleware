@@ -2,14 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageId>HttpStatusCodeExceptionMiddleware</PackageId>
-    <Authors>HttpStatusCodeExceptionMiddleware</Authors>
-    <Company>HttpStatusCodeExceptionMiddleware</Company>
-    <Product>HttpStatusCodeExceptionMiddleware</Product>
-    <Description>Package Description</Description>
-    <Copyright></Copyright>
-    <PackageReleaseNotes></PackageReleaseNotes>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageId>AspNetCore.Middleware.HttpStatusCodeException</PackageId>
+    <Authors>bc3tech</Authors>
+    <Company>BC3 Technologies</Company>
+    <Product>HttpStatusCodeException Middleware</Product>
+    <Description>Middleware that, when included in your Asp.Net Core app, allows you to throw new HttpStatusCodeException() and interrupt the execution of a request while sending back a response with the given Status Code and Body.</Description>
+    <Copyright>2017</Copyright>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageProjectUrl />
+    <RepositoryUrl>http://github.com/bc3tech/httpstatuscodeexceptionmiddleware</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>aspnet aspnetcore middleware netcore dotnetcore</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
